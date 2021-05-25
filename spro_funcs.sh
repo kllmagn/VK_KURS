@@ -2,9 +2,9 @@
 declare -a SPRO
 
 #1
-SPRO[0+3*0]=2484 #x
-SPRO[1+3*0]=3600 #y
-SPRO[2+3*0]=900 #r old 1000
+SPRO[0+3*0]=3376 #x
+SPRO[1+3*0]=3360 #y
+SPRO[2+3*0]=1100 #r old 1000
 
 #---------------------SPRO--------------------
 function SPRODetection
