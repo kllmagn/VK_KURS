@@ -44,7 +44,6 @@ spro_prev_status=0
 #каждая станция пишет в файл _status imok по разнице времени доступа к файлу определяем работает ли скрипт
 while :
 do
-    echo "pwd"
     cat $rls0  >>$logdir/full_log.txt; >$rls0
     cat $rls1  >>$logdir/full_log.txt; >$rls1
     cat $rls2  >>$logdir/full_log.txt; >$rls2
